@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*{
+	margin:0 auto;
+	padding:0;
+}
+body,html{
+	position:relative;
+}
+.hTitle{
+	postion:relative;
+	width:100%;
+	text-align:center;
+	font-size:20px;
+	font-weight: bold;
+}
+table{
+	width:242px;
+}
+table,tr,th,td{
+	postion:relative;
+	font-size:14px;
+	font-weight:normal;
+}
+table,th,td{
+	border: 1px solid black;
+}
+th,td{
+	postion:relative;
+	height:100%;
+}
+th{
+	width:25%;
+}
+td{
+	width:70%;
+}

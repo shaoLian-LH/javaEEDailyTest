@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>添加图书信息</title>
+<style>
+	*{
+		margin:0px auto;
+		padiing:0;
+	}
+	h2{
+		text-align:center;
+		margin-bottom: 10px;	
+	}
+	th{
+		text-align:center;
+		width: 30%;
+	}
+</style>
+</head>
+<body>
+	<h2>添加图书信息</h2>
+	<table border="1">
+		<tr>
+			<th>书名：</th>
+			<td><input type="text" name="bookname"/></td>
+		</tr>
+		<tr>
+			<th>作者：</th>
+			<td><input type="text" name="author"/></td>
+		</tr>
+		<tr>
+			<th>出版社：</th>
+			<td><input type="text" name="press"/></td>
+		</tr>
+		<tr>
+			<th>价格：</th>
+			<td><input type="text" name="price"/></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<input type="submit" name="add" value="添加" />
+				<input type="reset" name="re" value="重置"  />
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
